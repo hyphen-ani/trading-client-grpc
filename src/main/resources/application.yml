@@ -3,3 +3,6 @@ grpc:
     stockService:
       address: "static://localhost:9090"
       negotiation-type: PLAINTEXT
+    subscribeStock:
+      address: "static://localhost:9090"
+      negotiation-type: PLAINTEXT

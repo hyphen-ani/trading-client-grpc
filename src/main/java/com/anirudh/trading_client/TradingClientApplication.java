@@ -18,6 +18,7 @@ public class TradingClientApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		System.out.println("GRPC Client Response :" + stockClientService.getStockPrice("INTC"));
+//		System.out.println("GRPC Client Response :" + stockClientService.getStockPrice("INTC"));
+		stockClientService.subscribeStockPrice("APPL");
 	}
 }
