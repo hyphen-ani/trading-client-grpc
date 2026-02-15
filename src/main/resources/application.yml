@@ -6,3 +6,6 @@ grpc:
     subscribeStock:
       address: "static://localhost:9090"
       negotiation-type: PLAINTEXT
+    bulkOrder:
+      address: "static://localhost:9090"
+      negotiation-type: PLAINTEXT
